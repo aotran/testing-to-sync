@@ -1,8 +1,10 @@
+package test;
+
 public class Cat {
 
-    private boolean tired = false;
-    private boolean hungry = false;
-    private double weight;
+    protected double weight;
+    protected boolean tired = true;
+    protected boolean hungry = false;
 
     // The biological family for all cat species
     private String family = "Felidae";
